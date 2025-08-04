@@ -1,13 +1,13 @@
 ✅ 1. Chosen Domain:
-Library Management System 📚
+Library Management System 
 
 ✅ 2. Identified Entities & Relationships:
-📦 Entities:
+ Entities:
     -Authors
     -Books
     -Members
 
-🔗 Relationships also known as Cardinalities:
+ Relationships also known as Cardinalities:
 --> One Author can write many Books → Books.author_id is a foreign key referencing Authors.author_id
 --> Members can borrow books (you can later add a Loans table if needed)
 
